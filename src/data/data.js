@@ -3,6 +3,8 @@ import libraryindex from '../assets/projects/libraryindex.png'
 import mountainmove from '../assets/projects/mountainmove.png'
 import TodoMVC from '../assets/projects/TodoMVC.png'
 import reactscreen from '../assets/projects/reactscreen.png'
+import airbnbscreen from '../assets/projects/airbnbscreen.png'
+
 
 export const data=[
     {
@@ -10,14 +12,14 @@ export const data=[
         name:"Cartoon Local API Application",
         image:cartoonAPIexpress,
         github:"https://github.com/LandFCreative/cartoondogsAPI",
-        // live:"",
+        live:"https://cartoon-dog-api.onrender.com/",
     },
     {
         id:2,
         name:"Library Full Stack App",
         image:libraryindex,
         github:"https://github.com/LandFCreative/minilibraryupdate",
-        // live:"",
+        live:"https://quaint-twill-cod.cyclic.app/",
     },
     {
         id:3,
@@ -31,15 +33,21 @@ export const data=[
         name:"To Do App",
         image:TodoMVC,
         github:"https://github.com/LandFCreative/todo-mvc-auth-local",
-        // live:"",
+        live:"https://todo-with-authentication-f69h.onrender.com",
     },
     {
         id:5,
         name:"React Photo API with Tailwind",
         image:reactscreen,
         github:"https://github.com/LandFCreative/Reacttailwindphotoapi",
-        // live:"",
+        live:"https://precious-gnome-09e42e.netlify.app",
     },
-
+    {
+        id:6,
+        name:"React Airbnb Experience Page Cloned",
+        image:airbnbscreen,
+        github:"https://github.com/LandFCreative/ReactAirbnbclone",
+        live:"https://symphonious-phoenix-6dfe06.netlify.app/",
+    },
 
 ]

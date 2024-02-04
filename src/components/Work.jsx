@@ -44,13 +44,13 @@ const Work = () => {
             Code
           </button>
         </a>
-        {/* eslint-disable-next-line */}
-        <a href={item.live} target="_blank">
-          {/* <button
+        {/* eslint-disable-next-line */}       
+         <a href={item.live} target="_blank">
+          { <button
             className="text-center rounded-lg px-2 py-2 m-2
                        bg-white text-gray-700 text-lg">
             Live
-          </button> */}
+          </button> }
         </a>
       </div>
     </div>

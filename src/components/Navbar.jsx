@@ -8,9 +8,7 @@ import {
   FaEtsy
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-
 import Logo from '../assets/CD.png';
-import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -25,29 +23,22 @@ const Navbar = () => {
       {/* menu */}
       <ul className='hidden md:flex'>
         <li>
-          <Link to='home' smooth={true} duration={500}>
-            Home
-          </Link>
+            <a href='/'>Home</a>
+        </li>
+
+        <li>
+          <a href='/about'>About</a>
+        </li>
+
+        <li>
+        <a href='/skills'>Skills</a>
         </li>
         <li>
-          <Link to='about' smooth={true} duration={500}>
-            About
-          </Link>
+        <a href='/work'>Work</a>
+
         </li>
         <li>
-          <Link to='skills' smooth={true} duration={500}>
-            Skills
-          </Link>
-        </li>
-        <li>
-          <Link to='work' smooth={true} duration={500}>
-            Work
-          </Link>
-        </li>
-        <li>
-          <Link to='contact' smooth={true} duration={500}>
-            Contact
-          </Link>
+        <a href='/contact'>Contact</a>
         </li>
       </ul>
 
@@ -65,33 +56,22 @@ const Navbar = () => {
         }
       >
         <li className='py-6 text-3xl'>
-          <Link onClick={handleClick} to='home' smooth={true} duration={500}>
-            Home
-          </Link>
+        <a href='/'>Home</a>
+
         </li>
         <li className='py-6 text-3xl'>
-          {' '}
-          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
-            About
-          </Link>
+          <a href='/about'>About</a>
         </li>
+
         <li className='py-6 text-3xl'>
-          {' '}
-          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
-            Skills
-          </Link>
+          <a href='/skills'>Skills</a>
         </li>
+
         <li className='py-6 text-3xl'>
-          {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
-          </Link>
+            <a href='/work'>Work</a>
         </li>
+
         <li className='py-6 text-3xl'>
-          {' '}
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-            Contact
-          </Link>
         </li>
       </ul>
 

@@ -16,11 +16,11 @@ const Home = () => {
 <p className='text-[#ccd6f6] py-4 max-w-[700px]'>Don't tell me about your reality. Tell me about your dreams.</p>
 
 
+
 <div>
     <button className='text-white rounded-lg group border-2 px-6 py-3 my-2 flex items-center  hover:border-yellow-400'>
-<Link to='work' smooth={true} duration={500}>
-           View Work
-          </Link>
+    <a href='/work'>View Work</a>
+
         <span className='group-hover:rotate-90 duration-300'> <HiArrowNarrowRight className='ml-3 '/>
         </span>
         
